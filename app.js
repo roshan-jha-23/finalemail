@@ -31,8 +31,8 @@ async function main() {
       port: 587,
       secure: false,
       auth: {
-        user: 'jha062305@gmail.com',
-        pass: 'qjlo clqk rzdm avjx',
+        user: 'user@gmail.com',
+        pass: 'go to your app password get 16 character pass',
       },
     });
 
@@ -44,8 +44,8 @@ async function main() {
     };
 
     const info = await transporter.sendMail({
-      from: 'Roshan <jha062305@gmail.com>',
-      to: 'rr630822@gmail.com', // The primary recipient
+      from: 'Roshan <ya its me>',
+      to: 'firts@gmail.com', // The primary recipient
       bcc: emails.slice(1).join(', '), // Use BCC for the remaining recipients
       subject: 'Test email from roshan',
       html: html,
